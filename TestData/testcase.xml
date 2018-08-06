@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+	<testcase internalid="" name="Paytm_vouchers_1">
+		<node_order><![CDATA[]]>
+		</node_order>
+		<externalid><![CDATA[]]>
+		</externalid>
+		<version><![CDATA[]]>
+		</version>
+		<summary><![CDATA[verifcation of paytm vouchers which should not show up in the applicable vouchers list in the forgot evoucher flow ]]></summary>
+		<preconditions><![CDATA[1. Paytm evouchers has to be created.]]></preconditions>
+		<execution_type><![CDATA[1]]></execution_type>
+		<importance><![CDATA[2]]></importance>
+		<steps>
+			<step>
+				<step_number><![CDATA[1]]></step_number>
+				<actions><![CDATA[<p>Click on my orders field.</p>
+					<p>Select the active orders and click on apply voucher button</p>
+					<P>Click on applicable vouchers and verify</P>]]></actions>
+				<expectedresults><![CDATA[Orders page should open]]></expectedresults>
+				<execution_type><![CDATA[1]]></execution_type>
+			</step>
+		</steps>
+		<custom_fields>
+			<custom_field>
+				<name><![CDATA[Automation Complexity]]></name>
+				<value><![CDATA[  Not Automatable ]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Is Automated]]></name>
+				<value><![CDATA[ no]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Complexity]]></name>
+				<value><![CDATA[Easy ]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[JIRA Ticket]]></name>
+				<value><![CDATA[BB]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Search Text]]></name>
+				<value><![CDATA[Search]]></value>
+			</custom_field>
+		</custom_fields>
+	</testcase>
+</testcases>

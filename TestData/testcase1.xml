@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testcases>
+<testcase internalid="" name="Payement method is CashOnDelivery - Esodexo entry exists and cupon=0 and  amount to be collect &gt;  (a">
+		<node_order/>
+		<externalid/>
+		<version/>
+		<summary><![CDATA[place a order and go to payment option]]></summary>
+		<preconditions><![CDATA[orders has to be placed]]></preconditions>
+		<execution_type><![CDATA[1]]></execution_type>
+		<importance><![CDATA[2]]></importance>
+		<steps>
+			<step>
+				<step_number><![CDATA[1]]></step_number>
+				<actions><![CDATA[Payement method is CashOnDelivery - Esodexo entry exists and cupon=0 and  amount to be collect >  (amount collected+Esodexo amount)]]></actions>
+				<expectedresults><![CDATA[amount should be debited in member's wallet]]></expectedresults>
+				<execution_type><![CDATA[1]]></execution_type>
+			</step>
+		</steps>
+		<custom_fields>
+			<custom_field>
+				<name><![CDATA[Automation Complexity]]></name>
+				<value><![CDATA[  Not Automatable ]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Is Automated]]></name>
+				<value><![CDATA[ no]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Complexity]]></name>
+				<value><![CDATA[Easy ]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[JIRA Ticket]]></name>
+				<value><![CDATA[BB-38613]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Search Text]]></name>
+				<value/>
+			</custom_field>
+		</custom_fields>
+	</testcase>
+<testcase internalid="" name="Payement method is CashOnDelivery - Esodexo entry exists and cupon=0 amount to be collect &lt;  (amount">
+		<node_order/>
+		<externalid/>
+		<version/>
+		<summary><![CDATA[place a order and go to payment option]]></summary>
+		<preconditions><![CDATA[orders has to be placed]]></preconditions>
+		<execution_type><![CDATA[1]]></execution_type>
+		<importance><![CDATA[2]]></importance>
+		<steps>
+			<step>
+				<step_number><![CDATA[1]]></step_number>
+				<actions><![CDATA[Payement method is CashOnDelivery - Esodexo entry exists and cupon=0 amount to be collect <  (amount collected+Esodexo amount)]]></actions>
+				<expectedresults><![CDATA[amount should be credited in member's wallet]]></expectedresults>
+				<execution_type><![CDATA[1]]></execution_type>
+			</step>
+		</steps>
+		<custom_fields>
+			<custom_field>
+				<name><![CDATA[Automation Complexity]]></name>
+				<value><![CDATA[Easy]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Is Automated]]></name>
+				<value><![CDATA[ yes]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Complexity]]></name>
+				<value><![CDATA[Complex ]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[JIRA Ticket]]></name>
+				<value><![CDATA[BB-38613]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Search Text]]></name>
+				<value/>
+			</custom_field>
+		</custom_fields>
+	</testcase>
+<testcase internalid="" name="Payement method is CashOnDelivery - Esodexo entry exists and cupon=0 amount to be collect =  (amount">
+		<node_order/>
+		<externalid/>
+		<version/>
+		<summary><![CDATA[place a order and go to payment option]]></summary>
+		<preconditions><![CDATA[orders has to be placed]]></preconditions>
+		<execution_type><![CDATA[1]]></execution_type>
+		<importance><![CDATA[2]]></importance>
+		<steps>
+			<step>
+				<step_number><![CDATA[1]]></step_number>
+				<actions><![CDATA[Payement method is CashOnDelivery - Esodexo entry exists and cupon=0 amount to be collect =  (amount collected+Esodexo amount)]]></actions>
+				<expectedresults><![CDATA[No debit no credit to member wallet]]></expectedresults>
+				<execution_type><![CDATA[1]]></execution_type>
+			</step>
+		</steps>
+		<custom_fields>
+			<custom_field>
+				<name><![CDATA[Automation Complexity]]></name>
+				<value><![CDATA[Hard]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Is Automated]]></name>
+				<value><![CDATA[ no]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Complexity]]></name>
+				<value><![CDATA[Easy ]]></value>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[JIRA Ticket]]></name>
+				<value/>
+			</custom_field>
+			<custom_field>
+				<name><![CDATA[Search Text]]></name>
+				<value/>
+			</custom_field>
+		</custom_fields>
+	</testcase>
+</testcases>
